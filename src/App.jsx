@@ -11,7 +11,7 @@ const App = () => {
   const clearEditor = () => {
     setLatexCode("");
     setRenderedLatex("");
-    const res = window.confirm("Are You Sure?");
+    const res = window.confirm("Are you sure?");
     if (res === true) {
       if (clearButtonRef.current) {
         clearButtonRef.current.blur();
